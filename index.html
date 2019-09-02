@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salesforce Sample Email</title>
+    <style>
+      
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+    html {
+        font-size: 65.2%;
+    }
+
+    @media(max-width: 1250px) {
+    html {
+        font-size: 56%;
+    }  
+}
+
+    @media(max-width: 800px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+    @media(max-width: 500px) {
+    html {
+        font-size: 45%;
+    }
+}
+    body {
+    font-family: 'Arial', sans-serif;
+
+    }
+
+    :root {
+
+        --color-black: rgb(29, 26, 26);
+        --color-blue-dark: rgb(11, 132, 180);
+        --color-blue-light: #009EDB;
+        --color-grey-light: rgb(245, 240, 240);
+        --color-grey-medium: rgb(235, 221, 221);
+        --color-grey-dark: rgb(126, 109, 109);
+        --font-size-big: 2.3rem;
+        --font-size-medium: 1.7rem;
+        --font-size-small: 1.5rem;
+        --font-size-smaller: 1.3rem;
+    } 
+
+    .container {
+        background-color: var(--color-grey-light);
+        padding: 10rem 30rem;
+    }
+
+    @media(max-width: 1024px) {
+        .container {
+            padding: 1rem;
+        }       
+    }
+
+    .logo-container {
+        padding: 2rem;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .logo-container img {
+        width: 12%;
+    }
+
+    .body-top {
+        background-image: url("salesforce_background-2.png");
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        height: 37rem;
+    }
+
+   
+
+    .heading-1 {
+        font-size: var(--font-size-big);
+        margin-top: 3rem;
+    }
+
+    .btn-lue {
+        border: none;
+        width: 11.6rem;
+        padding: 1.4rem;
+        border-radius: 5px;
+        font-weight: 700;
+        margin-top: 2rem;
+        cursor: pointer;
+    }
+
+    .btn-lue-1 {
+        background-color: var(--color-grey-light);
+        color: var(--color-blue-dark);
+    }
+/* 
+    .btn-lue-1:hover {
+        background-color: rgb(202, 199, 199);
+        transform: translateY(-0.1rem)
+    } */
+
+
+    .body-top .monitor {
+        width: 60%;
+        margin-top: 16rem;
+        position: absolute;
+    }
+
+    .body-main {
+        background-color: var(--color-grey-medium);
+    }
+
+    .paragraph-section {
+        padding: 4rem 3rem;
+    }
+
+    .paragraph {
+        font-size: var(--font-size-small);
+    }
+
+    .paragraph-greeting,
+    .paragraph-bottom {
+        font-weight: 700;
+        margin-top: 2.5rem;
+    }
+
+    .paragraph-body {
+        line-height: 1.8;
+        margin-top: -1rem;
+
+    }
+
+    .btn-lue-2 {
+        background-color: var(--color-blue-dark);
+        color: #fff;
+
+    }
+
+
+    .body-bottom-top {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2rem;
+    }
+
+    .body-bottom-top-right {
+        padding: 1.3rem 2rem;
+    
+    }
+    
+    .logo-bottom {
+        width: 30%;
+    }
+
+    .body-bottom-top-left {
+        padding: 1rem;
+    }
+
+    .icons-list {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .social-icons-placeholder {
+        background-color: var(--color-grey-dark);
+        padding: 1rem;
+        height: 3.3rem;
+        width: 3.3rem;
+        border-radius: 50px;
+        text-align: center;
+        margin: .8rem;
+    }
+    
+
+    .body-bottom-main {
+        padding: 3rem 4rem;
+        text-align: center;
+        font-size: var(--font-size-smaller);
+    }
+
+    .bottom-paragraph {
+        line-height: 1.5;
+        margin-top: 1.2rem;
+    }
+    .bottom-links-list {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="wrapper">
+            <div class="logo-container">
+                <img src="Salesforce Logo.png" alt="">
+            </div>
+            <div class="body-top">
+                <h1 class="heading-1">Viekö tekoäly markkinoijilta työt?</h1>
+                <button class="btn-lue btn-lue-1">Lue koko juttu</button>
+                <img src="monitor.png" alt="monitor" class="monitor">
+
+            </div>
+            <div class="body-main">
+                <div class="paragraph paragraph-section">
+                <p class="paragraph paragraph-greeting">Hi Michele,</p><br>
+                <p class="paragraph paragraph-body">On arvioitu, että digitalisaation myötä maailmasta tulee häviämään yli 7 miljoonaa työpaikkaa vuoteen 2020 mennessä. Tämä on aiheuttanut huolta myös Suomessa, ja meilläkin on uutisoitu robottien vievän työt jopa lakimiehiltä ja lääkäreiltä.<br><br>On siis perusteltua esittää kysymyksiä myös markkinoinnin tulevaisuudesta: voiko keinoäly tehdä tulevaisuudessa markkinoijat tarpeettomiksi? Lue vastaus blogista!</p>
+                <button class="btn-lue btn-lue-2">Lue koko juttu</button>
+                <p class="paragraph paragraph-bottom">Your Salesforce Team</p>
+            </div>
+            </div>
+
+            <div class="body-bottom">
+                <div class="body-bottom-top">
+                    <div class="body-bottom-top-right">
+                    <img src="Salesforce Logo.png" class="logo-bottom" alt="">
+                </div>
+                <div class="body-bottom-top-left">
+                    <ul class="icons-list">
+                        <li class="social-icons-placeholder"><img src="facebook.png"></li>
+                        <li class="social-icons-placeholder"><img src="twitter.png"></li>
+                        <li class="social-icons-placeholder"><img src="linkedin.png"></li>
+                        <li class="social-icons-placeholder"><img src="instagram.png"></li>
+                        <li class="social-icons-placeholder"><img src="youtube.png"></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="body-bottom-main">
+                    <p class="bottom-paragraph">This email was sent to <a href="#">michele.zucca81@gmail.com</a></p>
+                    <div class="bottom-links">
+                        <ul class="bottom-links-list">
+                            <li><a href="#">Manage Preferences To Unsuscribe</a></li>
+                            <li><a href="#">Privacy Statement</a></li>
+                            <li><a href="#">View in browser</a></li>
+                        </ul>
+                    </div>
+                    <p class="bottom-paragraph">You can unsubscribe from Marketing emails at any time. Please note that opting-out of Marketing communications does not affect your receipt of business communications that are important to your interaction with Salesforce, such as support/service communications, security updates, event registration updates or account management communications.</p>
+                    <p class="bottom-paragraph">© Copyright 2000-2019  salesforce.com, inc. All rights reserved. Various trademarks held by their respective owners.</p>
+                    <p class="bottom-paragraph">
+                            Salesforce.com EMEA Limited, village 9, 26 Salesforce Tower, <br>
+                            110 Bishopsgate, London, UK, EC2N 4AY.<br>General Enquiries: 00800 7253 3333 | Fax: +44 870 351 5473 | Sales: 00800 7253 3333</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
